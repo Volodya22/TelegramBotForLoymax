@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBotForLoymax", "TelegramBotForLoymax\TelegramBotForLoymax.csproj", "{E39423D4-CA7E-4F6F-B871-6415A584F43F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBotForLoymax.Core", "TelegramBotForLoymax.Core\TelegramBotForLoymax.Core.csproj", "{DD7A164C-B8EA-4C8B-9420-A0CD32F07092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBotForLoymax.DataLayer", "TelegramBotForLoymax.DataLayer\TelegramBotForLoymax.DataLayer.csproj", "{B4B49BFC-73AF-4C3F-B000-07925918C9A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E39423D4-CA7E-4F6F-B871-6415A584F43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E39423D4-CA7E-4F6F-B871-6415A584F43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E39423D4-CA7E-4F6F-B871-6415A584F43F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7A164C-B8EA-4C8B-9420-A0CD32F07092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7A164C-B8EA-4C8B-9420-A0CD32F07092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7A164C-B8EA-4C8B-9420-A0CD32F07092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7A164C-B8EA-4C8B-9420-A0CD32F07092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B49BFC-73AF-4C3F-B000-07925918C9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B49BFC-73AF-4C3F-B000-07925918C9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B49BFC-73AF-4C3F-B000-07925918C9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B49BFC-73AF-4C3F-B000-07925918C9A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
